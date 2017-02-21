@@ -1,0 +1,33 @@
+# NodeJS
+.npm_cache
+node_modules
+npm-debug.log
+
+# Src files
+.babelrc
+.editorconfig
+.eslintrc
+.gitattributes
+.gitignore
+.nvmrc
+/src
+esdoc.json
+gulpfile.babel.js
+hints.md
+Makefile
+README.md
+
+# Build Files
+.env
+.tmp
+tmp
+/s3
+
+# Test Files
+/coverage
+report.xml
+*.tap
+/test
+
+# MacOS Files
+.DS_Store

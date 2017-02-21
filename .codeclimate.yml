@@ -1,0 +1,15 @@
+engines:
+  eslint:
+    enabled: true
+    channel: "eslint-3"
+    exclude_paths:
+    - "dist/"
+    - "node_modules/"
+    - "test/"
+    - "test2/"
+    checks:
+      import/no-unresolved:
+        enabled: false
+ratings:
+  paths:
+  - src/**
