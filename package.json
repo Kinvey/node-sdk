@@ -4,7 +4,7 @@
   "description": "Kinvey JavaScript SDK for NodeJS applications.",
   "homepage": "http://www.kinvey.com",
   "bugs": {
-    "url": "https://github.com/Kinvey/kinvey-nodejs/issues"
+    "url": "https://github.com/Kinvey/node-sdk/issues"
   },
   "license": "Apache-2.0",
   "author": "Kinvey, Inc.",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:Kinvey/kinvey-nodejs"
+    "url": "git@github.com:Kinvey/node-sdk"
   },
   "scripts": {
     "build": "npm run clean && npm run transpile",
