@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+- '6'
+before_deploy: npm run build
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: thomas.conner@me.com
+  api_key:
+    secure: voUzj9cfh/KcqO1wlGllEbi5EvR8Y7lh3bSXJ8MlzPICME7mXAUWUBHXp6QyzmlI3FHO/vBI9OlM6rriGf7CNqnLminB87K/RC6TDkJozIcazIA2or76rGEXdxejeZzbgYXFn8cg8O9btkrgsV956ArHypjI3WZugIjXyE3bT+UOsUXtS3Pt42h7KKZJ1ugGtQp66Wsdg0n0GGMZg0ujVWV4K/8B+Pn/wnjEJHXgV8mVARFngBre6Mn50Gj5tC3iG06ib1fJ3Wjl6kofI9ln+/YMJojAU0eDal4UMFce7uUzRx1IiusaCdLlVI/OU5rsnO0MfMynso3A5sqbT4xm+KEJ0fHMjAGULiiXyp3Ysejbi4HH45Q/8irh8J3AqstinoQ43ORHO9dTGb66QpMpys3hXLuS6ZFHeD0FUiufragcoqiqPDBiPVjZ4oEzAV/1Eu5fOdpFnxv9FjAXWYqVOYzAmgy9jlearEfY/MIJ4IzVOiBn5pXkbW+sObNDpQyEVbU8Bjjk3jnoPvZhmtMRXyda29jTk8SSrWyEOOPyQChm6xs6enuIF2Qg9a8bX5nGRVlHVYhwcEYxJvr3y3yoyJSPAbX5jP/kRDWQiyiu455ubcAFXOUApgTYZDeE01KwNJd4eU9LuF8psOK1REFWa301MpL6alXXJzQln7JA8rs=
+  on:
+    tags: true
+    repo: Kinvey/node-sdk
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+  slack:
+    on_success: change
+    on_failure: always
+    secure: qzkwmzuo2rjt5J9emt63Qb1NTrxiPqPzh0jELeNJT/tgUm21EUuAyie4VuTPICg3T77GWVuEOhkgA3RKA3AOnypKRrgtwBSRqNqN2v0/6tFoUeWSDTQL/8ifJicpUey3Y5aWR6awFqFG3cDSuPBIuEy7qjsQ6uniZ9Ag8vC6G/OEzNgn2JrEEgm1oxWR4/x6C3lIDETomrNmi3HpqlDSBb75d9SJ0L8vUOJFUhF75Rplq99KYCS9rTb++d3PeEO7gD3jcb0t3mrqbYjjMZ4z87nff4PVOMgEKgFbLMTGPOUh7pd/tkvVJLmhOx1WVGRWK8T7q8aBZTC4Q05IeYIDOdrj3/jXlycv2k9HPuJe0CfnZa8/tCfVmSHceklOW7mt0NT+PZ+rJAVcemn2K3EzUFdMKIpxPh1YgxcdWaTVRaCmcBtgsvUas+7ngH2GdK3Cp7VP0E2+xJUuomDd8Aqdbd8HFzdm4l17nwPo+jDB2lmbm7m7NVtn2wb5Ndm8FCAKgCES+/KPyY/ve8gwDCKuUbsamVx0nzd7Lq56xxfC+IVYRL0k+GoIwwUbMb+OL1eh3FLBSTrzZmReYXL5+4aYJrafB1mB/MQoV7zhfhVjal+JPp6+BcspWGa1hOsOKQRHPMB+JdNHwbY2Pjd4FJPcAX0k9rv91ytp+lg+PgXPBxs=
+script: npm run cover
+after_success:
+- bash <(curl -s https://codecov.io/bash)
