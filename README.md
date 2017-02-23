@@ -1,4 +1,4 @@
-# Kinvey NodeJS SDK
+# Kinvey NodeJS SDK [![Build Status](https://travis-ci.org/Kinvey/node-sdk.svg?branch=master)](https://travis-ci.org/Kinvey/node-sdk) [![Code Climate](https://codeclimate.com/github/Kinvey/node-sdk/badges/gpa.svg)](https://codeclimate.com/github/Kinvey/node-sdk)
 
 [Kinvey](http://www.kinvey.com) (pronounced Kin-vey, like convey) makes it ridiculously easy for developers to setup, use and operate a cloud backend for their mobile apps. They don't have to worry about connecting to various cloud services, setting up servers for their backend, or maintaining and scaling them.
 
