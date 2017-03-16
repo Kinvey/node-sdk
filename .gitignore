@@ -18,5 +18,5 @@ report.xml
 
 # MacOS Files
 .DS_Store
-/shots
-/local.log
+shots
+local.log
