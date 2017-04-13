@@ -33,11 +33,11 @@
   },
   "dependencies": {
     "es6-promise": "4.1.0",
-    "kinvey-js-sdk": "3.4.4",
+    "kinvey-js-sdk": "3.4.5",
     "request": "2.81.0"
   },
   "peerDependencies": {
-    "kinvey-js-sdk": "3.4.4"
+    "kinvey-js-sdk": "3.4.5"
   },
   "devDependencies": {
     "app-module-path": "2.2.0",
