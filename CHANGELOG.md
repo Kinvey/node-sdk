@@ -15,7 +15,8 @@ _None_
 
 ### Changed
 - Return `NetworkConnectionError` when an error occurs trying to send a network request.
-- Update `kinvey-js-sdk` dependency to [v3.5.0](https://github.com/Kinvey/js-sdk/tree/v3.5.0).
+- Update [kinvey-js-sdk](https://www.npmjs.com/package/kinvey-js-sdk) dependency to [v3.5.0](https://github.com/Kinvey/js-sdk/tree/v3.5.0).
+- Add [lodash](https://www.npmjs.com/package/lodash) as a dependency.
 
 ### Merged Pull Requests
 _None_
