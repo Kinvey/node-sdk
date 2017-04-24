@@ -34,12 +34,12 @@
   },
   "dependencies": {
     "es6-promise": "4.1.0",
-    "kinvey-js-sdk": "3.4.5",
+    "kinvey-js-sdk": "3.5.0",
     "lodash": "4.17.4",
     "request": "2.81.0"
   },
   "peerDependencies": {
-    "kinvey-js-sdk": "3.4.5"
+    "kinvey-js-sdk": "3.5.0"
   },
   "devDependencies": {
     "app-module-path": "2.2.0",
