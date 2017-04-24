@@ -1,7 +1,7 @@
 {
   "name": "kinvey-node-sdk",
   "version": "3.4.5",
-  "description": "Kinvey JavaScript SDK for NodeJS applications.",
+  "description": "Kinvey JavaScript SDK for Node.js applications.",
   "homepage": "http://www.kinvey.com",
   "bugs": {
     "url": "https://github.com/Kinvey/node-sdk/issues"
@@ -9,7 +9,8 @@
   "license": "Apache-2.0",
   "author": "Kinvey, Inc.",
   "main": "./dist/index.js",
-  "es6": true,
+  "module": "./src/index.js",
+  "typings": "./src/kinvey.d.ts",
   "contributors": [
     "Thomas Conner <thomas@kinvey.com>"
   ],
@@ -34,6 +35,7 @@
   "dependencies": {
     "es6-promise": "4.1.0",
     "kinvey-js-sdk": "3.4.5",
+    "lodash": "4.17.4",
     "request": "2.81.0"
   },
   "peerDependencies": {
@@ -66,10 +68,12 @@
     "regenerator-runtime": "0.10.3"
   },
   "engines": {
-    "node": "6.9.1"
+    "node": "^6.0.0"
   },
   "keywords": [
     "Kinvey",
-    "NodeJS"
+    "Node.js",
+    "NodeJS",
+    "Node"
   ]
 }
