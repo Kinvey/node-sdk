@@ -1,4 +1,28 @@
-## Changelog
+# Change Log
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [3.5.0](https://github.com/Kinvey/node-sdk/tree/v3.5.0) (2017-04-20)
+[Full Changelog](https://github.com/Kinvey/node-sdk/compare/v3.4.5...v3.5.0)<br/>
+
+### Added
+- Type definitions for typescript.
+
+### Removed
+_None_
+
+### Changed
+- Return `NetworkConnectionError` when an error occurs trying to send a network request.
+- Update `kinvey-js-sdk` dependency to [v3.5.0](https://github.com/Kinvey/js-sdk/tree/v3.5.0).
+
+### Merged Pull Requests
+_None_
+
+### Closed Issues
+_None_
+
 ## [v3.4.5](https://github.com/Kinvey/node-sdk/tree/v3.4.5) (2016-04-13)
 [Full Changelog](https://github.com/Kinvey/node-sdk/compare/v3.4.4...v3.4.5)<br/>
 
