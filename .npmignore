@@ -11,6 +11,7 @@ npm-debug.log
 .gitignore
 .nvmrc
 /src
+!/src/kinvey.d.ts
 esdoc.json
 gulpfile.babel.js
 hints.md
