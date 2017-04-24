@@ -10,13 +10,21 @@ npm-debug.log
 .gitattributes
 .gitignore
 .nvmrc
-/src
-!/src/kinvey.d.ts
+.codeclimate.yml
+.codecov.yml
+.eslintignore
+.istanbul.yml
+.travis.yml
+.github
+src/*
+!src/kinvey.d.ts
 esdoc.json
 gulpfile.babel.js
 hints.md
 Makefile
 README.md
+CONTRIBUTING.md
+CHANGELOG.md
 
 # Build Files
 .env
