@@ -20,13 +20,13 @@
   },
   "scripts": {
     "build": "npm run clean && npm run transpile",
-    "clean": "del dist coverage",
+    "clean": "rm -rf dist && rm -rf coverage",
     "cover": "istanbul cover _mocha -- --compilers js:babel-core/register -r babel-polyfill -s 100 --recursive test/index test",
     "docs": "esdoc -c esdoc.json",
     "lint": "npm run lint:src",
     "lint:src": "eslint src/**",
     "lint:test": "eslint test/**",
-    "preversion": "del node_modules && npm install && npm test",
+    "preversion": "rm -rf node_modules && npm install && npm test",
     "postversion": "git push && git push --tags",
     "test": "mocha --compilers js:babel-core/register -r babel-polyfill -s 100 --recursive test/index test",
     "test:watch": "mocha -w --compilers js:babel-core/register -r babel-polyfill -s 100 --recursive test/index test",
@@ -34,12 +34,12 @@
   },
   "dependencies": {
     "es6-promise": "4.1.0",
-    "kinvey-js-sdk": "3.5.1",
+    "kinvey-js-sdk": "3.5.2",
     "lodash": "4.17.4",
     "request": "2.81.0"
   },
   "peerDependencies": {
-    "kinvey-js-sdk": "3.5.1"
+    "kinvey-js-sdk": "3.5.2"
   },
   "devDependencies": {
     "app-module-path": "2.2.0",
@@ -53,7 +53,6 @@
     "babel-preset-stage-2": "^6.5.0",
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
-    "del-cli": "^0.2.0",
     "esdoc": "0.5.2",
     "esdoc-es7-plugin": "0.0.3",
     "eslint": "3.17.1",
