@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.8.0](https://github.com/Kinvey/node-sdk/tree/v3.8.0) (2017-08-24)
+[Full Changelog](https://github.com/Kinvey/node-sdk/compare/v3.5.2...v3.8.0)<br/>
+
+### Added
+_None_
+
+### Removed
+_None_
+
+### Changed/Fixed
+- Updated [kinvey-js-sdk](https://github.com/Kinvey/js-sdk) dependency to [3.8.0](https://github.com/Kinvey/js-sdk/tree/v3.8.0)
+
+### Merged Pull Requests
+- SDK on Windows [#1](https://github.com/Kinvey/node-sdk/pull/1)
+
+### Closed Issues
+_None_
+
 ## [3.5.2](https://github.com/Kinvey/node-sdk/tree/v3.5.2) (2017-07-08)
 [Full Changelog](https://github.com/Kinvey/node-sdk/compare/v3.5.1...v3.5.2)<br/>
 
