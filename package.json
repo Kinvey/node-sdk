@@ -10,7 +10,6 @@
   "author": "Kinvey, Inc.",
   "main": "./dist/index.js",
   "module": "./src/index.js",
-  "typings": "./src/kinvey.d.ts",
   "contributors": [
     "Thomas Conner <thomas@kinvey.com>"
   ],
@@ -34,12 +33,12 @@
   },
   "dependencies": {
     "es6-promise": "4.1.0",
-    "kinvey-js-sdk": "3.5.2",
+    "kinvey-js-sdk": "3.8.0",
     "lodash": "4.17.4",
     "request": "2.81.0"
   },
   "peerDependencies": {
-    "kinvey-js-sdk": "3.5.2"
+    "kinvey-js-sdk": "3.8.0"
   },
   "devDependencies": {
     "app-module-path": "2.2.0",
