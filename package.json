@@ -38,7 +38,7 @@
     "request": "2.81.0"
   },
   "peerDependencies": {
-    "kinvey-js-sdk": "3.8.0"
+    "kinvey-js-sdk": "3.8.1"
   },
   "devDependencies": {
     "app-module-path": "2.2.0",
