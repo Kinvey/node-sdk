@@ -1,0 +1,17 @@
+{
+  "version": "3.9.3-beta.7",
+  "name": "kinvey-node-sdk",
+  "description": "Kinvey JavaScript SDK for Node.js applications.",
+  "author": "Kinvey, Inc.",
+  "homepage": "http://www.kinvey.com",
+  "license": "Apache-2.0",
+  "main": "kinvey-node-sdk.min.js",
+  "dependencies": {
+    "es6-promise": "4.1.1",
+    "request": "^2.81.0"
+  },
+  "files": [
+    "kinvey-node-sdk.min.js",
+    "kinvey-node-sdk.min.js.map"
+  ]
+}
